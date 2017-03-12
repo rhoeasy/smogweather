@@ -1,0 +1,53 @@
+package com.example.android.smogweather.db;
+
+import org.litepal.crud.DataSupport;
+
+/**
+ * Created by rhoeasy on 2017/3/12.
+ */
+
+public class Country extends DataSupport {
+
+    private int id;
+
+    private String countyName;
+
+    private String weatherId;
+
+    private int cityId;
+
+    public int getCityId() {
+        return cityId;
+    }
+
+    public void setCityId(int cityId) {
+        this.cityId = cityId;
+    }
+
+    public String getWeatherId() {
+
+        return weatherId;
+    }
+
+    public void setWeatherId(String weatherId) {
+        this.weatherId = weatherId;
+    }
+
+    public String getCountyName() {
+
+        return countyName;
+    }
+
+    public void setCountyName(String countyName) {
+        this.countyName = countyName;
+    }
+
+    public int getId() {
+
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}

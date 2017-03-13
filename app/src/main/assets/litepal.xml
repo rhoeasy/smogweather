@@ -5,7 +5,7 @@
 
     <list>
         <mapping class = "com.example.android.smogweather.db.City"/>
-        <mapping class = "com.example.android.smogweather.db.Country"/>
+        <mapping class = "com.example.android.smogweather.db.County"/>
         <mapping class = "com.example.android.smogweather.db.Province"/>
     </list>
 </litepal>

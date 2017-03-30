@@ -6,7 +6,7 @@ package com.example.android.smogweather.gson;
 
 public class AQI {
 
-    public AQICity mCity;
+    public AQICity city;
 
     public class AQICity {
 

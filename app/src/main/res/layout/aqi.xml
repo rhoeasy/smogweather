@@ -34,7 +34,7 @@
 
                 <TextView
                     android:id="@+id/aqi_text"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:textColor="#fff"
@@ -49,7 +49,7 @@
 
             </LinearLayout>
         </RelativeLayout>
-    </LinearLayout>
+
 
     <RelativeLayout
         android:layout_width="0dp"
@@ -73,8 +73,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:text="pm2.5指数"
                 android:textColor="#fff"/>
         </LinearLayout>
     </RelativeLayout>
+    </LinearLayout>
 </LinearLayout>

@@ -22,6 +22,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.android.smogweather.gson.Forecast;
 import com.example.android.smogweather.gson.Weather;
+import com.example.android.smogweather.service.AQIService;
 import com.example.android.smogweather.service.AutoUpdateService;
 import com.example.android.smogweather.util.HttpUtil;
 import com.example.android.smogweather.util.Utility;
@@ -225,5 +226,7 @@ public class WeatherActivity extends AppCompatActivity {
         weatherLayout.setVisibility(View.VISIBLE);
         Intent intent = new Intent(this, AutoUpdateService.class);
         startService(intent);
+        Intent intent1 = new Intent(this, AQIService.class);
+        startService(intent1);
     }
 }
